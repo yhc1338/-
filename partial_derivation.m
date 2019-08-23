@@ -27,7 +27,7 @@ for i=2:l
 end
 mesh(z)
 figure
-
+%对比
 for i=1:l
     for j=1:l
         z1(i,j)=x1(i)^2*y1(j)^2;
