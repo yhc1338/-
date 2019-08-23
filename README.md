@@ -1,22 +1,15 @@
-# -
-一个微分方程的离散化迭代求解
+Discretized solution of a differential equation
 
-
-原始方程：
-
+Original equation:
 f(x,y)=x^2*y^2
 
-二阶微分方程：
-
+Second order differential equation:
 d^2f(x,y)/dxdy=4xy
 
-用到公式：
-
+the formula:
 fx=fx0+fxy*dx
-
 fy=fy0+fxy*dy
-
 f=f+fx*dx+fy*dy
 
 
-迭代结果与实际有偏差
+the result of iteration is a little different from reality
