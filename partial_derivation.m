@@ -1,6 +1,6 @@
 clc
 clear
-l=1000;
+l=1000;%离散分度
 x1=linspace(0,10,l);%x坐标
 y1=linspace(0,10,l);%y坐标
 dx=x1(2)-x1(1);%微元
