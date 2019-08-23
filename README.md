@@ -14,6 +14,6 @@ fx=fx0+fxy*dx
 
 fy=fy0+fxy*dy
 
-f=f+fx*dx+fy*dy
+f=f0+fx*dx+fy*dy
 
 the result of iteration is a little different from reality
